@@ -32,7 +32,4 @@ jobs:
         run: mvn -version
 
       - name: Build con Maven
-        run: mvn clean package
-
-      - name: Eseguire i test con Maven
-        run: mvn test
+        run: mvn clean install
