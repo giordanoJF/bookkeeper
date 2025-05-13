@@ -1,0 +1,3 @@
+use jdk 21 (also maven bundled with intellij).
+use unix systems.
+Windows maven profile is not working. mvn install with Windows will fail.
